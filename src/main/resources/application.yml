@@ -1,0 +1,11 @@
+server:
+  port: 7800
+spring:
+  application:
+    name: cloud-upload
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:123456@localhost:8761/eureka/ 
+
+
